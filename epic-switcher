@@ -29,8 +29,10 @@ check_deps "rsync"
 # =========================
 
 # PFX LOCATION
-# =============
-EGS_PFX="${HOME}/Games/Lutris/epic-games-store"
+
+# ============================================= # ========================================= #
+EGS_PFX="${HOME}/Games/Lutris/epic-games-store" # <— EDIT THIS TO BE YOUR EPIC GAMES PREFIX #
+# ============================================= # ========================================= #
 
 # Detect the Wine user directory
 detect_wine_user_dir() {
