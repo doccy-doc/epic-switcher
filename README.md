@@ -23,12 +23,12 @@ A lightweight, defensive Bash utility for managing multiple Epic Games Launcher 
 ## 📖 Usage
 
 ### Create a New Account
-Log into the Epic Games Launcher, then run:
-`epic-switcher new my-main-account`
+1. Run: `epic-switcher new my-main-account`
+2. Log into the Epic Launcher
+3. Type `y` into the prompt
 
 ### Save an Existing Account
-Log into the Epic Games Launcher, then run:
-`epic-switcher save`
+run:`epic-switcher save`
 
 ### Switch Accounts
 Ensure you are ready to swap, then run:
