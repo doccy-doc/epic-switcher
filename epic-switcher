@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+PROG_NAME=$(basename -- "$0")
+VERSION="0.1.0"
+
 die() { echo "ERROR: $*" >&2; exit 1; }
 warn() { echo "WARNING: $*" >&2; }
 info() { echo "INFO: $*"; }
 success() { echo "SUCCESS: $*"; }
 debug() {
-[[ "${MYSCRIPT_DEBUG:-0}" = "1" ]] && echo "DEBUG: $*" >&2;
+    [[ "${MYSCRIPT_DEBUG:-0}" = "1" ]] && echo "DEBUG: $*" >&2;
 }
-PROG_NAME=$(basename -- "$0")
 
 # =========================
 # DEPENDENCIES
@@ -580,6 +582,10 @@ case "$CMD" in
     delete) cmd_delete "$@" ;;
     rename) cmd_rename "$@" ;;
     list)   cmd_list ;;
+    -v|--version)
+        echo "$VERSION"
+        exit 0
+    ;;
     -h|--help)
         cmd_desc
         cmd_help
