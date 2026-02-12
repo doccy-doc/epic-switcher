@@ -22,11 +22,11 @@ A clear and concise description of what you expected to happen.
 If applicable, add CLI output or screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - Version: [e.g. 22]
+ - epic-switcher Version: [e.g. 0.1.0] (use `epic-switcher --version`)
  - OS: [e.g. Ubuntu 24.04]
  - Runner: [e.g. GE-Proton-10-30]
  - Launcher: [e.g. Lutris]
- - Other software info (e.g. VM/Docker/Flatpak/etc.)
+ - Other software info [e.g. VM/Docker/Flatpak/etc.]
 
 **Additional context**
 Add any other context about the problem here.
