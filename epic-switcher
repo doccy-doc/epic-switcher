@@ -1,4 +1,21 @@
 #!/usr/bin/env bash
+
+# EGSwitcher - A lightweight Bash utility for managing multiple Epic Games accounts on Linux/Wine.
+# Copyright (C) 2025 doccy-doc
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License version 3 as published by
+# the Free Software Foundation.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
+# SPDX-License-Identifier: GPL-3.0-only
+
 set -euo pipefail
 
 PROG_NAME=$(basename -- "$0")
@@ -522,7 +539,7 @@ EOF
 
 cmd_desc(){
     cat <<EOF
-Epic Games Account Switcher
+EGSwitcher
 A tool for swapping Epic Games accounts in the Epic Games Launcher without having to manually logout and login each time. Works on Linux with either WINE or proton
 EOF
 }

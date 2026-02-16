@@ -1,4 +1,4 @@
-# epic-switcher
+# EGSwitcher
 
 A lightweight, defensive Bash utility for managing multiple Epic Games Launcher accounts on Linux/Wine. Swap accounts instantly without losing your login session or game settings.
 
@@ -53,12 +53,10 @@ To ensure data integrity, the script employs a two-stage shutdown process:
 1. **Stage 1 (Graceful):** Uses `wine taskkill` to request a clean exit.
 2. **Stage 2 (Force):** Uses `wineserver -k` to terminate the specific prefix.
 
-*Note: `pkill` was intentionally removed to ensure OS session stability.*
-
 ### Roadmap
 - Transition to **Registry-driven detection** (`HKCU\Volatile Environment`).
 - Implement `winepath -u` for dynamic Linux/Windows path translation.
-- Refactor environment initialization with guard clauses for performance.
+- Implement `debug` flag to assist in debugging.
 
 ## 🛡️ Dependencies
 - **Wine / Proton**
@@ -66,5 +64,7 @@ To ensure data integrity, the script employs a two-stage shutdown process:
 - **coreutils**
 
 ---
-Copyright © 2026 doccy-doc
-**License:** GPLv3 [See License](./LICENSE)
+Copyright © 2025 doccy-doc
+**License:** GPL-3.0-only [See License](./LICENSE)
+
+SPDX-License-Identifier: GPL-3.0-only
