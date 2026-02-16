@@ -354,7 +354,7 @@ cmd_new() {
         [[ -n "$existing" ]] && save_account_files "$existing"
     fi
 
-    [[ -n "$old_name" ]] && set_inactive "$new_name"
+    [[ -n "$old_name" ]] && set_inactive "$old_name"
     [[ -n "$hkey" ]] && set_hkey_id
     rm -f "${EGS_CONFIG_FILE}"
 
