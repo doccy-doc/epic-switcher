@@ -21,29 +21,34 @@ A lightweight, defensive Bash utility for managing multiple Epic Games Launcher 
 ## 📖 Usage
 
 ### Create a New Account
+    epic-switcher new <name>
 1. Run: `epic-switcher new my-new-account`
-2. Relaunch the Epic Laucher and login
+2. Relaunch the Epic Launcher and login
 3. Type `y` into the prompt
 
 ### Save an Active Account
+    epic-switcher save [name]
 1. Run:`epic-switcher save`
 2. A new account prompt will appear if the active account is unknown
 
 ### Switch Accounts
+    epic-switcher load <name>
 1. Run:`epic-switcher load my-alt-account`
 2. Launch the game
 
 ### List Saved Accounts
-&ensp; Run:`epic-switcher list`
+    epic-switcher list
 
 ### Rename an Account
-&ensp; Run:`epic-switcher rename my-old-name my-new-name`
+    epic-switcher rename <old> <new>
+  Run:`epic-switcher rename my-old-name my-new-name`
 
 ### Delete an Account
-&ensp; Run:`epic-switcher delete my-crap-account`
+    epic-switcher delete <name>
+  Run:`epic-switcher delete my-crap-account`
 
 ### See a List of Commands
-&ensp; Run:`epic-switcher --help` or `epic-switcher -h`
+    epic-switcher -h
 
 ## 🏗️ Roadmap
 - Transition to **Registry-driven detection** (`HKCU\Volatile Environment`).
