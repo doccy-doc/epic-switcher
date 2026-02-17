@@ -56,7 +56,7 @@ To ensure data integrity, the script employs a two-stage shutdown process:
 ### Roadmap
 - Transition to **Registry-driven detection** (`HKCU\Volatile Environment`).
 - Implement `winepath -u` for dynamic Linux/Windows path translation.
-- Implement `debug` flag to assist in debugging.
+- Implement `debug` flag to assist with bug reports.
 
 ## 🛡️ Dependencies
 - **Wine / Proton**
