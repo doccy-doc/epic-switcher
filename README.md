@@ -5,7 +5,7 @@ A lightweight, defensive Bash utility for managing multiple Epic Games Launcher 
 ## 🚀 Features
 
 * **Session Persistence:** Save and load full launcher states (authentication tokens, launcher settings).
-* **Defensive Design:** Automated checks for running Wine processes to prevent data corruption.
+* **Defensive Design:** Automated checks for running processes to prevent data corruption.
 * **Wine Native Integration:** Uses `taskkill` and `wineserver -k` for session-safe termination.
 * **Smart Directory Detection:** Heuristic scanning to find the Wine user and AppData paths.
 
