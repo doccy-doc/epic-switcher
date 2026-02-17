@@ -30,8 +30,8 @@ A lightweight, defensive Bash utility for managing multiple Epic Games Launcher 
 2. A new account prompt will appear if the active account is unknown
 
 ### Switch Accounts
-Run:`epic-switcher load my-alt-account`
-Launch the game
+1. Run:`epic-switcher load my-alt-account`
+2. Launch the game
 
 ### List Saved Accounts
 Run:`epic-switcher list`
