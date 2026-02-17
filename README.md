@@ -21,15 +21,17 @@ A lightweight, defensive Bash utility for managing multiple Epic Games Launcher 
 ## 📖 Usage
 
 ### Create a New Account
-1. Run: `epic-switcher new my-main-account`
-2. Log into the Epic Launcher
+1. Run: `epic-switcher new my-new-account`
+2. Relaunch the Epic Laucher and login
 3. Type `y` into the prompt
 
 ### Save an Active Account
-Run:`epic-switcher save`
+1. Run:`epic-switcher save`
+2. A new account prompt will appear if the active account is unknown
 
 ### Switch Accounts
 Run:`epic-switcher load my-alt-account`
+Launch the game
 
 ### List Saved Accounts
 Run:`epic-switcher list`
@@ -45,9 +47,8 @@ Run:`epic-switcher --help` or `epic-switcher -h`
 
 ## 🏗️ Roadmap
 - Transition to **Registry-driven detection** (`HKCU\Volatile Environment`).
-- Implement `winepath -u` for dynamic Linux/Windows path translation.
 - Implement `debug` flag to assist with bug reports.
-- Transition to user-friendly config using CLI commands.
+- Transition to user-friendly CLI configuration.
 
 ## 🛡️ Dependencies
 - **Wine** or **Proton**
