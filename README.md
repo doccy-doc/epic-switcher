@@ -41,11 +41,11 @@ A lightweight, defensive Bash utility for managing multiple Epic Games Launcher 
 
 ### Rename an Account
     epic-switcher rename <old> <new>
-  Run:`epic-switcher rename my-old-name my-new-name`
+&ensp; Run:`epic-switcher rename my-old-name my-new-name`
 
 ### Delete an Account
     epic-switcher delete <name>
-  Run:`epic-switcher delete my-crap-account`
+&ensp; Run:`epic-switcher delete my-crap-account`
 
 ### See a List of Commands
     epic-switcher -h
