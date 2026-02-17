@@ -34,16 +34,16 @@ A lightweight, defensive Bash utility for managing multiple Epic Games Launcher 
 2. Launch the game
 
 ### List Saved Accounts
-Run:`epic-switcher list`
+&ensp; Run:`epic-switcher list`
 
 ### Rename an Account
-Run:`epic-switcher rename my-old-name my-new-name`
+&ensp; Run:`epic-switcher rename my-old-name my-new-name`
 
 ### Delete an Account
-Run:`epic-switcher delete my-crap-account`
+&ensp; Run:`epic-switcher delete my-crap-account`
 
 ### See a List of Commands
-Run:`epic-switcher --help` or `epic-switcher -h`
+&ensp; Run:`epic-switcher --help` or `epic-switcher -h`
 
 ## 🏗️ Roadmap
 - Transition to **Registry-driven detection** (`HKCU\Volatile Environment`).
